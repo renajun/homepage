@@ -1,6 +1,9 @@
 body{
     text-align: center;
     background-color: paleturquoise;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size:40px;
 }
 
 /*
@@ -16,7 +19,7 @@ form{
  input{
     width:100%;
     font-size:40px;
-    margin:300px 0;
+    margin:100px 0;
     border:1px solid #000;
     padding:10px;
     outline:none;
