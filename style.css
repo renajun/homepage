@@ -1,9 +1,9 @@
 body{
     text-align: center;
-    background-color: paleturquoise;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+   background-color: rgb(234, 234, 220);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 400;
-    font-size:40px;
+    font-size:50px;
 }
 
 /*
@@ -19,18 +19,18 @@ form{
  input{
     width:100%;
     font-size:40px;
-    margin:100px 0;
+    margin:50px 0;
     border:1px solid #000;
     padding:10px;
     outline:none;
     display:inline-block;
  }
  .search-bar{
-    width:80%;
+    width:70%;
  }
  .submit-button{
     width:15%;
-    background:#000;
+    background:#000000;
     color:#FFF;
  }
 
@@ -43,19 +43,20 @@ BOOKMARKS
     text-decoration: none;
  }
  .bookmarks{
-    padding:30px;
+    padding:50px;
     clear:both;
  }
  .bookmarks i{
-    font-size:42px;
-    margin:0 20px;
-    color:#000000;
+    font-size:35px;
+    margin:0 25px;
+    color:#ffffff;
     transition:.15s;
     vertical-align: top;
  }
  .bookmarks i:hover{
     font-size:72px;
     position:relative;
+
  }
  
  /*
@@ -63,6 +64,25 @@ BOOKMARKS
 POST-IT NOTE (IN CSS)
 =================================================
 */
+#note{
+ width:250px;
+ height:250px;
+ resize: none;
+ background:#ffffe5;
+ padding:15px;
+ border:none;
+ position: absolute;
+ bottom:50px;
+ left:50px;
+ font-family:sans-serif;
+ opacity: 0;
+}
+/*
+=================================================
+POST-IT NOTE (IN CSS)
+=================================================
+*/
 #calc{
-    opacity:0;
-    }
+   opacity:0;
+   }
+  
